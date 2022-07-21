@@ -1,0 +1,139 @@
+body
+            {
+                margin:0;
+                padding:0;
+                font-family:Arial,Tahoma
+            }
+            .header
+            {
+                background:#333;
+                color:#fff;
+                font-size:20px;
+                text-align:center;
+                padding:20px 0
+            }
+            .navigation
+            {
+                background:#DDD;
+                color:#676767;
+                text-align:center
+            }
+            ul,ol
+            {
+                list-style:none;
+                padding:0;
+                margin:0;
+            }
+            ul li
+            {
+                display:inline-block;
+                padding:10px
+            }
+            .content
+            {
+                text-align:center;
+                padding:20px 0
+            }
+            .footer
+            {
+                background:#333;
+                color:FFF;
+                text-align:center;
+                padding:10px 0
+            }
+            ol
+            {
+                display:inline-block
+            }
+            ol li
+            {
+               display:inline-block;
+            }
+           .logo
+            {
+                background-image:url("apple.png");
+                width:2000px;
+                height:300px;
+                background-repeat:repeat;
+                background-attachment:fixed;
+            }
+/* background code */
+/* background:url("apple.png") repeat fixed 10% 40% red */;
+fieldset
+        {
+         background:#fff;
+         border:1px solid #CCC;
+         padding:20px;
+         width:500px;
+         margin:20px auto
+        }
+        
+        legend
+        {
+         background:#fff;
+         border:1px solid #CCC;
+         padding:10px
+        }
+        
+        label
+        {
+            margin-bottom:10px;
+            display:block
+        }
+        input{margin-bottom:10px}
+        input[type="text"],input[type="password"],textarea
+        {
+            padding:8px;
+            width:300px;
+            display:block
+        }
+        hr{border:1px solid #fff}
+        textarea
+        {
+            height:200px;
+            margin-bottom:10px
+        }
+        iframe
+        {
+            width:300px;
+            height:200px;
+            margin:20px;
+            overflow:hidden;
+            border:5px solid rgba(255, 192, 236, 0.94)
+        }
+        /* dirction:ltr; left to right*/
+        /* letter-spacing:5px; space between letters*/
+div
+{
+    direction:ltr;
+    letter-spacing:normal;
+    line-height:normal;
+}
+a
+{
+    text-decoration:none;
+}
+
+a:hover
+{
+    text-decoration:underline;
+    color:red;
+    font-weight:bold;
+}
+a:active
+{
+ text-decoration:none;
+ color:fuchsia;
+ font-weight:normal;
+}
+div.logo
+{
+    /* text-indent:40px;*/
+    text-transform:capitalize;
+    font:italic bold 15px/30px "Trebuchet MS", Helvetica, sans-serif;
+    /* text-transform:uppercase;*/
+    /* text-transform:lowercase;*/
+    /* white-space:nowrap;*/
+    /* word-spacing:10px;*/
+    /* letter-spacing:5px;*/
+}
